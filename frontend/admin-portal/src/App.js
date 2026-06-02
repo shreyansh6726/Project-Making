@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import './App.css';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_BASE_URL = process.env.REACT_APP_HF_SPACE_URL || 'http://localhost:5000';
 
 const formatDateTime = (value) =>
   new Intl.DateTimeFormat('en-IN', {
